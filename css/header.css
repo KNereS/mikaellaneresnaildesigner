@@ -1,0 +1,73 @@
+header {
+    height: 120px;
+    width: 100vw;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header__logo__img {
+    height: 100px;
+    transition: var(--transition);
+}
+
+.header__logo__img:hover {
+    transform: scale(0.95);
+}
+
+.header__logo__phone {
+    font-family: var(--serif-font);
+    color: var(--white);
+}
+
+.header__logo__phone span {
+    color: var(--primary);
+}
+
+.header__social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__social-media__item {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    font-size: 1.5rem;
+    width: 42px;
+    height: 42px;
+    border: solid 1px var(--primary);
+    border-radius: 100%;
+    transition: var(--transition);
+}
+
+.header__social-media__item:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.header__button {
+    color: var(--primary);
+    font-size: 1.5rem;
+    width: 42px;
+    height: 42px;
+    border: solid 1px var(--primary);
+    background: transparent;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.header__button:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}

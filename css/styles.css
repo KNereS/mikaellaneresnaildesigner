@@ -1,0 +1,35 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url(header.css);
+
+/* Global Variables */
+:root {
+
+    /* Colors */
+
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #e5e5e5;
+    --primary: #fca311;
+    --secondary: #14213d;
+
+    /* Transition */
+
+    --transition: 0.25s ease-in-out;
+
+    /* Fonts */
+
+    --serif-font: "Playfair Display", serif;
+    --sans-serif-font: "Manrope", sans-serif;
+
+}
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
