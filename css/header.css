@@ -1,6 +1,5 @@
 header {
-    height: 120px;
-    width: 100vw;
+    height: 90px;
     background-color: var(--secondary);
     display: flex;
     justify-content: space-around;
@@ -8,14 +7,14 @@ header {
 }
 
 .header__logo {
-    height: 100px;
+    height: 65px;
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
 .header__logo__img {
-    height: 100px;
+    height: 65px;
     transition: var(--transition);
 }
 

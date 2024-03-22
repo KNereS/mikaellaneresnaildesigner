@@ -1,0 +1,11 @@
+.main__sect0 {
+
+    /* Background */
+    height: calc(100vh - 90px);
+    background: linear-gradient(190deg, rgba(20,33,61,0) 0%, rgba(20,33,61,0) 50%, rgba(20,33,61,1) 100%), linear-gradient(0deg, rgba(20,33,61,0) 0%, rgba(20,33,61,0) 50%, rgba(20,33,61,1) 100%), url(../../assets/img/background0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Content */
+}
