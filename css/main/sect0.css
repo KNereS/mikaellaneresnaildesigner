@@ -2,7 +2,7 @@
 
     /* Background */
     height: calc(100vh - 90px);
-    background-image: url(../../assets/img/background0.jpg);
+    background: linear-gradient(180deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 35%, rgba(20,33,61,0) 100%), linear-gradient(0deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 100%), url(../../assets/img/background0.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,4 +14,15 @@
 
 .main__sect0__img {
     width: 200px;
+}
+
+@media (max-width: 500px) {
+    
+    .main__sect0 {
+        background: linear-gradient(180deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 35%, rgba(20,33,61,0) 100%), linear-gradient(0deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 100%), url(../../assets/img/background0-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
 }
