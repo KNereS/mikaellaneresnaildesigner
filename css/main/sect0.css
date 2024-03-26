@@ -43,6 +43,20 @@
 @media (max-width: 420px) {
 
     .main__sect0__title {
+        font-size: 42px;
+        line-height: 1.5rem;
+    }
+    
+    .main__sect0__title span {
+        font-size: 14px;
+        letter-spacing: 14px;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .main__sect0__title {
         font-size: 36px;
         line-height: 1.5rem;
     }
