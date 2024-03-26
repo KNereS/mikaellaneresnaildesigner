@@ -1,0 +1,64 @@
+.app-menu {
+    z-index: 1;
+    padding: 2rem;
+    width: 0px;
+    height: 100vh;
+    background-color: var(--secondary);
+    position: absolute;
+    display: none;
+    right: 0px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,1);
+}
+
+.active {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 250px;
+}
+
+#closemenu {
+    font-family: var(--sans-serif-font);
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    color: red;
+    font-size: 1rem;
+    border: 1px solid red;
+    border-radius: 100%;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+#closemenu:hover {
+    transform: scale(.9);
+    background-color: red;
+    color: var(--secondary);
+}
+
+.app-menu nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-menu nav a {
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--sans-serif-font);
+    font-weight: 700;
+    border-bottom: 1px solid var(--transparent-white);
+    transition: .25s ease-in-out;
+}
+
+.app-menu nav a:hover {
+    transform: scale(1.05);
+}
+
+nav:hover a:not(:hover) {
+    color: var(--transparent-white);
+}
