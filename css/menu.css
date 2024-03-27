@@ -62,3 +62,7 @@
 nav:hover a:not(:hover) {
     color: var(--transparent-white);
 }
+
+.menuIsOpened {
+    overflow: hidden;
+}
