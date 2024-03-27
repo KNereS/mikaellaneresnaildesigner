@@ -89,7 +89,9 @@
 
     .main__sect1 {
         flex-direction: column;
+        background: linear-gradient(180deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 100%), linear-gradient(0deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 100%), url(../../assets/img/background1-mobile.jpg);
         background-position: center;
+        background-size: cover;
     }
 
     .main__sect1__contend {
