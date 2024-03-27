@@ -21,5 +21,6 @@ menuNavItems = [...menuNavItems];
 menuNavItems.forEach(e => {
     e.addEventListener("click", () => {
         menu.classList.remove("active");
+        body.classList.toggle("menuIsOpened");
     });
 });
