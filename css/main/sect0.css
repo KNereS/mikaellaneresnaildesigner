@@ -112,3 +112,21 @@
     }
 
 }
+
+@media (min-width: 800px) {
+
+    .main__sect0 {
+        justify-content: flex-end;
+    }
+
+    .main__sect0__title {
+        font-size: 72px;
+        line-height: 2rem;
+    }
+    
+    .main__sect0__title span {
+        font-size: 24px;
+        letter-spacing: 24px;
+    }
+
+}

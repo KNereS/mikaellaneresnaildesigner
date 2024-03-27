@@ -9,3 +9,13 @@ openButton.addEventListener("click", () => {
 closeButton.addEventListener("click", () => {
     menu.classList.toggle("active");
 })
+
+let menuNavItems = document.getElementsByClassName("app-menu__nav__item");
+
+menuNavItems = [...menuNavItems];
+
+menuNavItems.forEach(e => {
+    e.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    })
+});
