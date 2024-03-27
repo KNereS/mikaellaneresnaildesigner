@@ -1,0 +1,123 @@
+@keyframes rotateImg {
+
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+
+}
+
+.main__sect1 {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 100%), linear-gradient(0deg, rgba(20,33,61,1) 0%, rgba(20,33,61,0) 100%), url(../../assets/img/background1.jpg);
+    background-size: cover;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__sect1__contend {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.main__sect1__title {
+    font-family: var(--serif-font);
+    font-style: italic;
+    color: var(--primary);
+    font-size: 2rem;
+}
+
+.main__sect1__text {
+    font-family: var(--sans-serif-font);
+    color: var(--white);
+    max-width: 550px;
+    font-size: 1rem;
+}
+
+.main__sect1__links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.main__sect1__links__item {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    font-size: 1.5rem;
+    width: 42px;
+    height: 42px;
+    border: solid 1px var(--primary);
+    border-radius: 100%;
+    transition: var(--transition);
+}
+
+.main__sect1__links__item:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.main__sect1__img, .main__sect1__img__text, .main__sect1__img__symbol {
+    width: 300px;
+}
+
+.main__sect1__img {
+    margin: 32px;
+    position: relative;
+}
+
+.main__sect1__img__text {
+    animation: rotateImg 30s linear infinite;
+}
+
+.main__sect1__img__symbol {
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 930px){
+
+    .main__sect1 {
+        flex-direction: column;
+        background-position: center;
+    }
+
+    .main__sect1__contend {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 420px){
+
+    .main__sect1__img, .main__sect1__img__text, .main__sect1__img__symbol {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 350px){
+
+    .main__sect1__title {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 320px){
+
+    .main__sect1__img, .main__sect1__img__text, .main__sect1__img__symbol {
+        width: 200px;
+    }
+
+}
