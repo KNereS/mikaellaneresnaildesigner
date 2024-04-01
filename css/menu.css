@@ -11,7 +11,7 @@
     gap: 1rem;
     right: -300px;
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,.5);
-    transition: var(--transition);
+    transition: .25s ease-out;
 }
 
 .active {
