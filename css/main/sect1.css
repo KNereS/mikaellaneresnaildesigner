@@ -30,7 +30,7 @@
 
 .main__sect1__title {
     font-family: var(--serif-font);
-    font-style: italic;
+    font-weight: 600;
     color: var(--primary);
     font-size: 2rem;
 }
