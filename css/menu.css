@@ -65,5 +65,5 @@ nav:hover a:not(:hover) {
 }
 
 .menuIsOpened {
-    overflow: hidden;
+    overflow-y: hidden;
 }
