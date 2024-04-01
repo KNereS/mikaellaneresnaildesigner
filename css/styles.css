@@ -42,15 +42,12 @@
 body {
     position: relative;
     z-index: 0;
-    position: relative;
     overflow-x: hidden;
-    max-width: 100%;
 }
 
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    max-width: 100%;
 }
 
 ::-webkit-scrollbar {

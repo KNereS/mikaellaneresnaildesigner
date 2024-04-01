@@ -1,4 +1,4 @@
-const body = document.body;
+const doc = document.querySelector("html");
 
 const openButton = document.getElementById("openmenu");
 const closeButton = document.getElementById("closemenu");
@@ -6,12 +6,12 @@ const menu = document.getElementById("menu");
 
 openButton.addEventListener("click", () => {
     menu.classList.toggle("active");
-    body.classList.toggle("menuIsOpened");
+    doc.classList.toggle("menuIsOpened");
 });
 
 closeButton.addEventListener("click", () => {
     menu.classList.toggle("active");
-    body.classList.toggle("menuIsOpened");
+    doc.classList.toggle("menuIsOpened");
 });
 
 let menuNavItems = document.getElementsByClassName("app-menu__nav__item");
