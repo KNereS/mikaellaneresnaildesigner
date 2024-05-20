@@ -33,6 +33,7 @@
     font-weight: 600;
     color: var(--primary);
     font-size: 2rem;
+    font-style: italic;
 }
 
 .main__sect1__text {
