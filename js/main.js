@@ -24,3 +24,28 @@ menuNavItems.forEach(e => {
         doc.classList.toggle("menuIsOpened");
     });
 });
+
+let initialScrollY = 0;
+let isScrollPositive = false;
+
+const pageHeader = document.body.querySelector("header");
+
+window.addEventListener("scroll", () => {
+
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > initialScrollY) {
+        isScrollPositive = true
+    } else {
+        isScrollPositive = false
+    }
+
+    if (isScrollPositive) {
+        pageHeader.style.top = "-90px";
+    } else {
+        pageHeader.style.top = "-1px";
+    }
+
+    initialScrollY = currentScrollY;
+
+})
